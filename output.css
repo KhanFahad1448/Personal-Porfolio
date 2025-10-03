@@ -856,9 +856,7 @@ video {
   max-width: 800px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
+
 
 .max-w-\[600px\] {
   max-width: 600px;
@@ -1068,7 +1066,7 @@ video {
 }
 
 .bg-\[\#ffe578ffe578\] {
-  background-color: #ffe578ffe578;
+  background-color: #ffe578;
 }
 
 .bg-\[\#47afa1\] {
@@ -1110,7 +1108,7 @@ video {
 }
 
 .bg-\[\[\#1788ae\]\] {
-  background-color: [#1788ae];
+  background-color: #1788ae;
 }
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
