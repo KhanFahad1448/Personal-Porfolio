@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="font.css" />
-    <link rel="stylesheet" href="output.css" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of [Your Name], showcasing projects, skills, and experience." />
+  <meta name="author" content="[Your Name]" />
+  <meta name="theme-color" content="#1788ae" />
+  
+  <title>Personal Portfolio | [Fahad Akhtar]</title>
 
-    <!-- Demo styles -->
-     <!-- Used Swipper.js -->
-    <style>
-      .swiper {
-        width: 100%;
-        height: 100%;
-      }
+  <!-- Favicon -->
+  <link rel="icon" href="../Personal Portfolio/assets/icons/foursquare.png" />
 
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+  <!-- Fonts -->
+  <link rel="stylesheet" href="font.css" />
 
-      .swiper-button-next,
-      .swiper-button-prev {
-        color: #1788ae;
-      }
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="output.css" /> <!-- Tailwind/compiled CSS -->
+  <link rel="stylesheet" href="style.css" /> <!-- Custom overrides -->
 
-      .swiper-pagination-bullet {
-        background-color: #23b9eb;
-      }
-    </style>
-    <script src="./matter.js" defer></script>
-  </head>
+  <!-- Swiper.js CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  <!-- Inline Swiper tweaks -->
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #1788ae;
+    }
+
+    .swiper-pagination-bullet {
+      background-color: #23b9eb;
+    }
+  </style>
+
+  <!-- JS Scripts -->
+  <script src="./matter.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+</head>
+
   <body class="bg-[#111] text-white font-['Nunito']">
     <section class="flex flex-col justify-between h-screen">
       <header

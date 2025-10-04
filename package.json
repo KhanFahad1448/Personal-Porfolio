@@ -1,6 +1,16 @@
 {
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server ./",
+    "build:css": "tailwindcss -i ./style.css -o ./output.css --watch"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.13",
     "tailwindcss": "^4.1.13"
-  }
+  },
+  "author": "Fahad Akhtar",
+  "license": "MIT"
 }
