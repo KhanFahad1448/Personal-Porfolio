@@ -1,9 +1,7 @@
 
 ## Personal Portfolio
 
-<p align="center">
-  <img src="../assets/images/CurrentScreenshot.png" width="100%">
-</p>
+![Home Screenshot]('../assets/images/CurrentScreenshot.png')
 
 # Overview
 
