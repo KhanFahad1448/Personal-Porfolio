@@ -9,8 +9,18 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.13",
+    "resend": "^6.26.0",
     "tailwindcss": "^4.1.13"
   },
   "author": "Fahad Akhtar",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanFahad1448/Personal-Porfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/KhanFahad1448/Personal-Porfolio/issues"
+  },
+  "homepage": "https://github.com/KhanFahad1448/Personal-Porfolio#readme"
 }
