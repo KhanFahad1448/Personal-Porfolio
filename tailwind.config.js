@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html"],
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
-      transitionTimingFunction: {
-        jump: "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+      fontFamily: {
+        Nunito: ['Nunito', 'sans-serif'],
+        Spartan: ['League Spartan', 'sans-serif'],
+        Merriweather: ['Merriweather', 'serif'],
       },
     },
   },
   plugins: [],
-};
+}
