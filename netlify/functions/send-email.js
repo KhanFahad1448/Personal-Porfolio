@@ -1,8 +1,11 @@
-const { Resend } = require('resend')
+import { Resend } from 'resend'
 
-exports.handler = async (event) => {
+export const handler = async (event) => {
   if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) }
+    return {
+      statusCode: 405,
+      body: JSON.stringify({ error: 'Method not allowed' }),
+    }
   }
 
   try {
@@ -26,11 +29,25 @@ exports.handler = async (event) => {
     })
 
     if (error) {
-      return { statusCode: 500, body: JSON.stringify({ error: error.message }) }
+      return {
+        statusCode: 500,
+        body: JSON.stringify({ error: error.message }),
+      }
     }
 
-    return { statusCode: 200, body: JSON.stringify({ success: true, data }) }
+    return {
+      statusCode: 200,
+      body: JSON.stringify({
+        success: true,
+        data,
+      }),
+    }
   } catch (err) {
-    return { statusCode: 500, body: JSON.stringify({ error: err.message }) }
+    return {
+      statusCode: 500,
+      body: JSON.stringify({
+        error: err.message,
+      }),
+    }
   }
 }
